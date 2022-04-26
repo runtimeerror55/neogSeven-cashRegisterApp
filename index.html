@@ -1,0 +1,78 @@
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="app.css">
+        <title>Document</title>
+</head>
+
+<body>
+
+        <main class="main">
+
+                <article class="cash-register">
+
+                        <header class="cash-register__header">
+
+                                <h1 class="cash-register__heading">cash register manager</h1>
+
+                        </header>
+
+                        <section class="cash-register__inputs">
+
+                                <label for="cash-register__bill-amount" class="cash-register__bill-amount-label">Bill
+                                        amount</label>
+
+                                <input type="text" class="cash-register__bill-amount" id="cash-register__bill-amount">
+
+                                <label for="cash-register__cash-given" class="cash-register__cash-given-label">cash
+                                        given</label>
+
+                                <input type="text" class="cash-register__cash-given" id="cash-register__cash-given">
+
+                                <button class="cash-register__button">check</button>
+
+                        </section>
+                        <section class="cash-register__output-container">
+                                <table>
+                                        <tbody>
+                                                <tr>
+                                                        <th>denomination</th>
+                                                        <td>2000</td>
+                                                        <td>1000</td>
+                                                        <td>500</td>
+                                                        <td>100</td>
+                                                        <td>50</td>
+                                                        <td>10</td>
+                                                        <td>5</td>
+                                                        <td>1</td>
+                                                </tr>
+                                                <tr>
+                                                        <th>count</th>
+                                                        <td class="cash-register__output"></td>
+                                                        <td class="cash-register__output"></td>
+                                                        <td class="cash-register__output"></td>
+                                                        <td class="cash-register__output"></td>
+
+                                                        <td class="cash-register__output"></td>
+                                                        <td class="cash-register__output"></td>
+                                                        <td class="cash-register__output"></td>
+                                                        <td class="cash-register__output"></td>
+                                                </tr>
+                                        </tbody>
+                                </table>
+                        </section>
+
+
+
+
+                </article>
+        </main>
+
+
+        <script src="app.js"></script>
+</body>
+
+</html>
